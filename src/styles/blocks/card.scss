@@ -9,7 +9,7 @@
   border: 1px solid #f3f3f3;
   border-radius: 5px;
 
-  transition: transform, $transition-duration;
+  transition: transform $transition-duration;
 
   &__product-image {
     width: 160px;
@@ -73,9 +73,10 @@
     background-color: $accent-color;
     border: 0;
     border-radius: 5px;
+    text-decoration: none;
     cursor: pointer;
 
-    transition: all, $transition-duration;
+    transition: all $transition-duration;
 
     &-text {
       font-size: 14px;

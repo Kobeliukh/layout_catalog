@@ -21,7 +21,7 @@
     color: $main-color;
     text-decoration: none;
 
-    transition: all, $transition-duration;
+    transition: all $transition-duration;
 
     &:hover {
       cursor: pointer;
